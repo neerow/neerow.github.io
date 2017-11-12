@@ -12,7 +12,15 @@ html, body {
 }
 
 body {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat","montserratbold","Open Sans","Helvetica","Arial",sans-serif;
+}
+
+.title {
+  color: white;
+}
+
+.songOfTheWeek {
+  padding-right: 3em;
 }
 
 .text-vertical-center {
@@ -178,6 +186,10 @@ hr.small {
   padding: 50px 0;
 }
 
+#services {
+  color: black;
+}
+
 .service-item {
   margin-bottom: 30px;
 }
@@ -190,7 +202,8 @@ hr.small {
   width: 100%;
   height: 400px;
   color: #fff;
-  background: url(../img/callout.jpg) no-repeat center center scroll;
+  /*background: url(../img/callout.jpg) no-repeat center center scroll;*/
+  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
